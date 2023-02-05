@@ -8,6 +8,6 @@ The function "handleChange" is invoked whenever there is a change in a field of 
 
 The "input" component is imported from "./components/input" and represents each of the form fields. It is passed as props to the "Input" component: "label", "type", "id", "value" and "onChange".
 
-The message "Data sent successfully" is displayed if the response of the request has status "ok".
+The message "Dados enviados com sucesso" is displayed if the response of the request has status "ok".
 
 The "App" component is exported as application default.
