@@ -93,8 +93,9 @@ function App() {
                 ))}
 
                 <button>enviar</button>
+                {response && response.ok && <p>Dados enviados com sucesso</p>}
             </form>
-            {response && response.ok && <p>foi</p>}
+            
         </>
     );
 }
